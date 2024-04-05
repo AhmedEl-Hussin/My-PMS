@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+/* ############# style for authentication ############## */
+
+.Auth-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/images/bg1.png);
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.titleForm{
+    color: orange;
+}
+
+.caption{
+    width: 50%;
+    border-radius: 20px;
+    padding:20px 0;
+    background-color: rgba(49, 89, 81, 0.9);
+    color: orange;
+}
+
+.imageLogo{
+    width: 200px;
+    margin: auto;
+}
+
+.form h2{
+    font-weight: 700;
+    position: relative;
+}
+
+.form h2::after{
+    content: "";
+    width: 17px;
+    height: 3.5px;
+    background-color: orange;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.Auth-container .inputs{
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    width: 100%;
+    outline: none;
+    color: white;
+}
+
+.Auth-container .inputs::placeholder{
+    color: rgb(159, 159, 159);
+}
+
+
+.rigester a{
+    color: orange;
+    text-decoration: none;
+}
+
+.form button{
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    width: 95% ;
+    margin: auto;
+    padding: 6px;
+    border: none;
+}
+
+.form button:hover{
+    background-color: orange;
+    color: white;
+}
+
+@media screen and (max-width:900px) {
+
+    .caption{
+        width: 85%;
+    }
+}
+
+/* ############# style for sidebar ############## */
+
+.sideBar-container .ps-sidebar-container{
+    background-color: #0E382F;
+    /* background-color: red; */
+    color: white;
+    height: 130vh;
+    position: relative;
+}
+
+.sideBar-container .ps-sidebar-root{
+    width: 12rem;
+    min-width: 10rem;
+    border: none;
+}
+
+.sideBar-container .ps-sidebar-container .ps-menu-button .ps-menu-label{
+    font-size: 15px;
+}
+
+
+.sideBar-container .ps-sidebar-container img{
+    width: 140px;
+    margin-left: 140px;
+} 
+
+.sideBar-container .ps-sidebar-container .ps-menu-button:hover{
+    background-color: transparent;
+
+}
+
+.sideBar-container .ps-sidebar-container .iconHover:hover{
+    background-color: rgba(242, 147, 15, 0.3) ;
+    width: 170px;
+    /* margin: auto; */
+    margin-left: 10px;
+    border-radius: 10px;
+    color: orange;
+    /* padding: 0; */
+}
+
+.sideBar-container .ps-sidebar-container .togel:hover{
+    background-color: transparent ;
+    color: white;
+}
+
+.sideBar-container .ps-sidebar-container .icon-tolgle-right{
+    background-color: orange;
+    padding: 10px 5px;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /* margin-left: 100px; */
+    position: absolute;
+    width: 20px;
+    top: 10px;
+    left: 60px ;
+}
+
+.sideBar-container .ps-sidebar-container .icon-tolgle-left{
+    background-color: orange;
+    padding: 10px 5px;
+    font-size: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: absolute;
+    width: 20px;
+    top: 10px;
+    left: 172px ;
+}
+
+@media screen and (max-width:950px) {
+
+    .side{
+        display: none;
+    }
+}
+
+
+/* **************** style for navbar *************** */
+.navbarCaption{
+    border-bottom: 2px solid rgb(235, 235, 235);
+}
+
+.navbarImg{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.navEmail{
+    font-size: 13px;
+}
+
+.navlogo{
+    width: 130px;
+    height: 40px;
+}
+
+/* **************** style for tables *************** */
+
+.shredBtn{
+    color: white;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 8px 30px;
+    transition: all 0.4s;
+    border: none;
+}
+
+.header{
+    width: 100% !important;
+}
+
+.bgOutlet{
+    background-color: rgb(241, 238, 238);
+}
+
+.theadTable , .status{
+    background-color: #466a62 !important;
+    color: white !important;
+}
+
+.tableBody{
+    box-shadow: 0px 0px 3px gray;
+}
+
+.actionBtn{
+    border: none;
+    background-color: transparent;
+}
+
+.btn-Pagination{
+    background-color: #315951;
+    border: 1px solid #315951;
+    color: red;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.btn-Pagination:hover{
+    background-color: #589085;
+    border: 1px solid #315951;
+    color: white;
+}
+
+.loading i {
+    font-size: 60px;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.drop-btn:hover{
+    background-color:#589085;
+}
+
+/* **************** style for add new project *************** */
+
+.navigate{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
